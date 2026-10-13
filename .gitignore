@@ -18,3 +18,13 @@ chroma/
 
 # macOS
 .DS_Store
+
+# Local model downloads, experiment indexes, and runtime output
+.cache/
+.env.*
+!.env.example
+*.log
+.pytest_cache/
+
+# Local Python 3.12 environment
+.venv312/

@@ -1,0 +1,55 @@
+{
+  "documents": 12,
+  "baseline_chunks": 26,
+  "alternative_chunks": 46,
+  "accepted_evaluation_rows_unchanged": true,
+  "accepted_judgments": [
+    "Accurate",
+    "Accurate",
+    "Partially Accurate",
+    "Accurate",
+    "Partially Accurate"
+  ],
+  "student_acceptance_recorded": true,
+  "saved_chunks_match_pipeline": true,
+  "corpus_signatures_match": true,
+  "planned_expectations_preserved": true,
+  "current_readme_sections_and_local_links_valid": true,
+  "report_regeneration_idempotent": true,
+  "human_review_and_demo_section_preserved": true,
+  "fresh_generation_calls_ok": 10,
+  "fresh_app_http_interactions_passed": 4,
+  "initial_app_http_service_error_retained": true,
+  "demo_recorded": true,
+  "remaining_readme_todos": [],
+  "original_runtime_audit_date": "2026-10-01",
+  "demo_video_url": "https://drive.google.com/file/d/180ZixYKxZe4Kuu8D8pOAcEdD8f3AdbKO/view?usp=sharing",
+  "demo_completion_source": "I confirmed that I recorded and uploaded the demo when supplying its link.",
+  "demo_viewer_check": {
+    "unauthenticated_http_status": 200,
+    "title": "AI Project 1 Demo Video.mov - Google Drive",
+    "video_metadata_present": true,
+    "access_denied_text": false
+  },
+  "submission_unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "python_version": "3.12.1",
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": 0.201,
+    "environment": "Isolated Python 3.12 environment using the recorded dependency versions."
+  },
+  "runtime_evidence_note": "The ten Groq calls and four Gradio interactions above are preserved from the October 1 runtime audit; they were not rerun for final documentation cleanup.",
+  "submission_checks": {
+    "syntax_and_imports_passed": true,
+    "dependency_consistency_passed": true,
+    "local_markdown_links_valid": 17,
+    "secret_matches_current_and_history": 0,
+    "venv312_ignored": true,
+    "accepted_evaluation_rows_unchanged": true,
+    "retrieval_quality_summary_added_from_saved_passages": true,
+    "required_rubric_target": 25,
+    "stretch_rubric_target": 5
+  }
+}

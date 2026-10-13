@@ -1,0 +1,10 @@
+{
+  "idempotent_rebuild": "passed: 26 chunks",
+  "metadata_filter": "passed",
+  "empty_query": "passed",
+  "interface_empty_query": "passed",
+  "gradio_http": "passed: HTTP 200 on localhost",
+  "gradio_client_config": "passed",
+  "gradio_callback": "passed: empty-question validation through HTTP API",
+  "gradio_generation_and_memory": "passed: two cited answers, student filter, four-message session, contextual follow-up through HTTP API"
+}

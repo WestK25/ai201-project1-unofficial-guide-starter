@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What do students say about College Hall South?",
+    "conversation": [
+      {
+        "role": "user",
+        "metadata": null,
+        "content": [
+          {
+            "text": "What do students say about College Hall South?",
+            "type": "text"
+          }
+        ],
+        "options": null
+      },
+      {
+        "role": "assistant",
+        "metadata": null,
+        "content": [
+          {
+            "text": "Students offer mixed opinions about College Hall South (CHS). One student recommends it, noting it is coeducational, one of the newer dorms, and has a bathroom advantage along with proximity to a dining hall and other residence halls [S2]. Another student also recommends CHS, specifically for women, and states they like living there, though they mention adapting to American food was difficult in their first semester [S3]. However, another commenter reports having seen a mouse in College Hall South, indicating that experiences vary and do not establish a consensus on cleanliness or quality [S3]. These are individual student opinions and not official Howard University housing policies [S3].",
+            "type": "text"
+          }
+        ],
+        "options": null
+      }
+    ],
+    "sources": "[S1] **r/HowardUniversity \u2014 Resident hall recommendations** (student; accessed 2026-09-29) \u2014 [student_residence_recommendations.txt](https://www.reddit.com/r/HowardUniversity/comments/1snfwjv/resident_hall_recommendations/)\n\n[S2] **r/HowardUniversity \u2014 What\u2019s the best dorm for Incoming Freshman Male?** (student; accessed 2026-09-29) \u2014 [student_freshman_dorms.txt](https://www.reddit.com/r/HowardUniversity/comments/1sa2az5/whats_the_best_dorm_for_incoming_freshman_male/)\n\n[S3] **r/HowardUniversity \u2014 Resident hall recommendations** (student; accessed 2026-09-29) \u2014 [student_residence_recommendations.txt](https://www.reddit.com/r/HowardUniversity/comments/1snfwjv/resident_hall_recommendations/)\n\n[S4] **r/HowardUniversity \u2014 Advice for New Applicants** (student; accessed 2026-09-29) \u2014 [student_applicant_experience.txt](https://www.reddit.com/r/HowardUniversity/comments/1jyjivj/advice_for_new_applicants/)",
+    "retrieval_details": "Retrieval query: What do students say about College Hall South?\n\n[S1] score=0.03252; cosine distance=0.37068337202072144; BM25=6.671474386706828\nlity rules. They say they like living in College Hall South but would have considered Annex for its kitchens because adapting to American food was difficult in their first semester. sibscartel says applicants can rank preferences but do not control their eventual assignment. Consult official Housing information for current assignment procedures.\n\n[S2] score=0.03227; cosine distance=0.32630252838134766; BM25=3.4019262452541366\nParaphrased individual opinions in a discussion started by an incoming class-of-2030 student. The thread does not establish an objective best residence hall. Single-Cupcake8787 recommends Drew Hall for the experience. Solo_is_dead distinguishes that experience from amenities. lucioruler25 strongly disagrees with the Drew recommendation and criticizes their experience with Residence Life; the disagreement should not be hidden or turned into a consensus. lucioruler25 recommends College Hall South (CHS), describing it as coeducational, among the newer dorms, with a bathroom advantage and proximity to a dining hall and other dorms. They suggest Annex or Cook as alternatives. Middle_Main_9145 recommends Cook for its location and bathroom, while Royal-Mine8885 says it is mostly athletes. These a\n\n[S3] score=0.03200; cosine distance=0.3747354745864868; BM25=6.280216784480496\nParaphrased Reddit discussion; commenters' identities and enrollment are not independently verified. These are opinions, not Howard housing rules. Odd_Function281 recommends College Hall North or South and describes bathrooms shared with a roommate. They criticize Annex's age and report mice. Another commenter, amri2000, reports having seen a mouse in College Hall South too, illustrating disagreement rather than a reliable ranking of buildings. amri2000 recommends Drew or Cook for men and College Hall South or North for women, and describes the Quad as pleasant but with communal bathrooms. These recommendations are not verified gender eligibility rules. They say they like living in College Hall South but would have considered Annex for its kitchens because adapting to American food was dif\n\n[S4] score=0.03101; cosine distance=0.5056313276290894; BM25=2.021365045121646\n they enjoy Washington, DC, but are unhappy with aspects of campus social life and some classes. Their statements about sophomore residency and visitation must not replace current official rules; the official housing source describes an approved-exemption process. Historical complaints do not establish today's opening hours or residence policies."
+  },
+  {
+    "question": "How does that compare with Drew?",
+    "conversation": [
+      {
+        "role": "user",
+        "metadata": null,
+        "content": [
+          {
+            "text": "What do students say about College Hall South?",
+            "type": "text"
+          }
+        ],
+        "options": null
+      },
+      {
+        "role": "assistant",
+        "metadata": null,
+        "content": [
+          {
+            "text": "Students offer mixed opinions about College Hall South (CHS). One student recommends it, noting it is coeducational, one of the newer dorms, and has a bathroom advantage along with proximity to a dining hall and other residence halls [S2]. Another student also recommends CHS, specifically for women, and states they like living there, though they mention adapting to American food was difficult in their first semester [S3]. However, another commenter reports having seen a mouse in College Hall South, indicating that experiences vary and do not establish a consensus on cleanliness or quality [S3]. These are individual student opinions and not official Howard University housing policies [S3].",
+            "type": "text"
+          }
+        ],
+        "options": null
+      },
+      {
+        "role": "user",
+        "metadata": null,
+        "content": [
+          {
+            "text": "How does that compare with Drew?",
+            "type": "text"
+          }
+        ],
+        "options": null
+      },
+      {
+        "role": "assistant",
+        "metadata": null,
+        "content": [
+          {
+            "text": "Student opinions on Drew Hall and College Hall South (CHS) vary significantly, with no consensus. One student recommends Drew for the overall experience, while another distinguishes that experience from amenities [S1]. Conversely, a different student strongly disagrees with the Drew recommendation, citing a negative experience with Residence Life, and instead recommends CHS [S1]. This student describes CHS as coeducational, newer, and having a bathroom advantage, along with proximity to a dining hall and other dorms [S1].\n\nRegarding specific amenities, one commenter notes that CHS bathrooms are shared with a roommate [S2]. While one student reported seeing a mouse in CHS, another criticized Annex for its age and mice, indicating that building conditions are viewed subjectively [S2]. Another student expressed a preference for CHS but considered Annex for its kitchens to help with adapting to American food [S2][S3]. These are individual opinions and do not represent official Howard housing policies or verified rankings [S2].",
+            "type": "text"
+          }
+        ],
+        "options": null
+      }
+    ],
+    "sources": "[S1] **r/HowardUniversity \u2014 What\u2019s the best dorm for Incoming Freshman Male?** (student; accessed 2026-09-29) \u2014 [student_freshman_dorms.txt](https://www.reddit.com/r/HowardUniversity/comments/1sa2az5/whats_the_best_dorm_for_incoming_freshman_male/)\n\n[S2] **r/HowardUniversity \u2014 Resident hall recommendations** (student; accessed 2026-09-29) \u2014 [student_residence_recommendations.txt](https://www.reddit.com/r/HowardUniversity/comments/1snfwjv/resident_hall_recommendations/)\n\n[S3] **r/HowardUniversity \u2014 Resident hall recommendations** (student; accessed 2026-09-29) \u2014 [student_residence_recommendations.txt](https://www.reddit.com/r/HowardUniversity/comments/1snfwjv/resident_hall_recommendations/)\n\n[S4] **r/HowardUniversity \u2014 Housing for Freshman** (student; accessed 2026-09-29) \u2014 [student_freshman_housing.txt](https://www.reddit.com/r/HowardUniversity/comments/1s9ygvz/housing_for_freshman/)",
+    "retrieval_details": "Retrieval query: What do students say about College Hall South?\nHow does that compare with Drew?\n\n[S1] score=0.03252; cosine distance=0.2861727476119995; BM25=6.757907672857694\nParaphrased individual opinions in a discussion started by an incoming class-of-2030 student. The thread does not establish an objective best residence hall. Single-Cupcake8787 recommends Drew Hall for the experience. Solo_is_dead distinguishes that experience from amenities. lucioruler25 strongly disagrees with the Drew recommendation and criticizes their experience with Residence Life; the disagreement should not be hidden or turned into a consensus. lucioruler25 recommends College Hall South (CHS), describing it as coeducational, among the newer dorms, with a bathroom advantage and proximity to a dining hall and other dorms. They suggest Annex or Cook as alternatives. Middle_Main_9145 recommends Cook for its location and bathroom, while Royal-Mine8885 says it is mostly athletes. These a\n\n[S2] score=0.03252; cosine distance=0.3797926902770996; BM25=8.027793711835967\nParaphrased Reddit discussion; commenters' identities and enrollment are not independently verified. These are opinions, not Howard housing rules. Odd_Function281 recommends College Hall North or South and describes bathrooms shared with a roommate. They criticize Annex's age and report mice. Another commenter, amri2000, reports having seen a mouse in College Hall South too, illustrating disagreement rather than a reliable ranking of buildings. amri2000 recommends Drew or Cook for men and College Hall South or North for women, and describes the Quad as pleasant but with communal bathrooms. These recommendations are not verified gender eligibility rules. They say they like living in College Hall South but would have considered Annex for its kitchens because adapting to American food was dif\n\n[S3] score=0.03175; cosine distance=0.4590616226196289; BM25=6.671474386706828\nlity rules. They say they like living in College Hall South but would have considered Annex for its kitchens because adapting to American food was difficult in their first semester. sibscartel says applicants can rank preferences but do not control their eventual assignment. Consult official Housing information for current assignment procedures.\n\n[S4] score=0.03078; cosine distance=0.6814884543418884; BM25=4.876981998617791\nAn incoming Howard student asks whether freshman housing is first-come-first-served or a lottery, and whether an application can be edited later to add a roommate. In the visible response, amri2000 describes assignments as random and advises ensuring that both applicants' roommate preferences match before submitting. This is one commenter's advice, not an official account of the assignment algorithm or a verified restriction on editing. The source does not provide a detailed roommate-selection workflow. Students should compare it with the current official housing application instructions."
+  }
+]

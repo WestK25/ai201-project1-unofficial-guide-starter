@@ -1,9 +1,6 @@
 # Project 1 Planning: The Unofficial Guide
 
-> Write this document before you write any pipeline code.
-> Your spec and architecture diagram are what you'll use to direct AI tools (ChatGPT, Claude, Copilot, etc.) to generate your implementation.
-> Update the Retrieval Approach and Chunking Strategy sections if the approach changes during implementation.
-> Update this file before starting any stretch features.
+I prepared this specification before implementation and used its architecture to direct AI assistance. The dated updates below record the stretch plan and later implementation changes while preserving the original evaluation expectations.
 
 ---
 
@@ -34,7 +31,7 @@ The initial corpus will contain at least 10 sources covering both official Howar
 | 9 | r/HowardUniversity — "Housing for Freshman" | Student discussion about freshman housing assignments, preferences, and roommates. | https://www.reddit.com/r/HowardUniversity/comments/1s9ygvz/housing_for_freshman/ |
 | 10 | r/HowardUniversity — "How does off campus housing work?" | Student discussion about paying for off-campus housing, employment, loans, refunds, and housing options. | https://www.reddit.com/r/HowardUniversity/comments/1l41ecq/ |
 | 11 | r/HowardUniversity — "Advice for New Applicants" | Student discussion describing residence hall visitation, mail, dining, and other day-to-day experiences. | https://www.reddit.com/r/HowardUniversity/comments/1jyjivj/ |
-| 12 | r/HowardUniversity — "Upperclassman Housing" | Student discussion about housing availability for upperclassmen and off-campus alternatives. | https://www.reddit.com/r/HowardUniversity/comments/1txvuw9/ |
+| 12 | r/HowardUniversity — "Housing Waitlist" (July 19, 2024) | Historical student report about upperclassman waitlist uncertainty and considering off-campus housing; replacement for inaccessible planned thread. | https://www.reddit.com/r/HowardUniversity/comments/1e6qzk5/ |
 
 ---
 
@@ -147,3 +144,28 @@ Official Howard Pages + Student Discussions
                     |
                     v
         Grounded Answer + Sources
+```
+
+## AI Tool Plan
+
+I will use AI as an implementation assistant with this specification and the starter files as context. I will direct it to implement ingestion, retrieval, generation, interfaces, and reproducible experiments. I am responsible for the project direction, source choices, testing, evaluation judgments, and acceptance. I will distinguish the assistant’s source verification, implementation, and automated checks from my own completed testing and review.
+
+## Implementation and Stretch Plan (2026-09-29, before implementation)
+
+Retain all-MiniLM-L6-v2, ChromaDB, top-k 4, and the 800-character/150-overlap baseline. Add BM25 keyword search and reciprocal rank fusion: sum 1/(60 + rank) across vector and BM25 candidate lists, with up to 12 candidates per method. Hybrid is the application default; semantic-only remains independently testable. Apply source-type filters before ranking both lists. Compare 800/150 against 400/75 on the same three queries using expected-source hit@4 and inspect returned passages; this small experiment cannot establish general superiority.
+
+Use Gradio for a question field, conversation, source-type filter, retrieval-mode selector, and retrieved evidence. Resolve follow-ups using a bounded history of user questions, not previous generated answers as evidence. Keep conversation state per browser session, with a clear button.
+
+Collection refinement: full-title Reddit URL paths resolve several abbreviated links that failed to fetch. The planned Upperclassman Housing thread (1txvuw9) could not be retrieved. Replace it with r/HowardUniversity “Housing Waitlist” (July 19, 2024), https://www.reddit.com/r/HowardUniversity/comments/1e6qzk5/ . It covers the same upperclassman availability concern, but is a historical individual report, not current policy. All source files are attributed editorial paraphrases of retrieved pages, not fabricated quotations. Retain the original evaluation expectations above, even when corpus coverage does not support every detail (e.g. roommates).
+
+Dependency refinement: pin Gradio 6.9.0 and Hugging Face Hub <1 because the latest Gradio requested Hub 1.x while the starter Transformers 4.x requires Hub <1. The embedding model and algorithm are unchanged. The existing Python 3.14 environment contains cloud-only (dataless) package files; runtime verification may use an isolated temporary Python 3.12 environment without creating another project or changing .env.
+
+Generation model refinement: the initial Groq default llama-3.3-70b-versatile returned NotFoundError on all requests. The authenticated Models API did not list it. Switch the default to the available qwen/qwen3.8-27b in instruct mode (reasoning_effort=none); retain the Groq provider and existing key, with GROQ_MODEL override support. This preview model may change. The unsuccessful first run is retained as evidence/generation_unavailable.json rather than presented as successful answers.
+
+## Recovery refinement (2026-10-01)
+
+Preserve the original five evaluation questions, corpus, retrieval settings, and earlier measured failures. Recreate the missing temporary Python 3.12 environment and revalidate the application. Tighten generation instructions to check speaker/entity attribution and avoid inferring venue categories from adjacent text; parse grouped citations as well as single citations. Reset judgments after retrying changed evaluation answers and reject report generation when the saved corpus signature is stale. Prior user questions are sent to generation only for reference-bearing follow-ups. These are implementation corrections, not changes to the original evaluation expectations.
+
+## Final submission preparation (2026-10-01)
+
+After implementation, I completed manual tests and accepted all five existing evaluation judgments and the documented limitations. I retained the two Partially Accurate results. A separate output-directory option preserves accepted evidence during new experiments, and report regeneration preserves my review text and the demo URL. The full-title Housing Waitlist URL resolved the earlier source-access limitation during the final audit; it is the same source, with no corpus substitution. At this October 1 checkpoint, the demo had not been recorded. I have since recorded and uploaded it; the completed video is linked in the README Demo section.

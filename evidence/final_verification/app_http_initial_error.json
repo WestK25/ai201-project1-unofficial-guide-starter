@@ -1,0 +1,8 @@
+{
+  "question": "How often do Howard shuttles arrive?",
+  "mode": "hybrid",
+  "source_type": "official",
+  "observed_answer": "Generation unavailable (InternalServerError). Check connectivity, Groq credentials, model access, and quota.",
+  "retrieval": "Four source entries were returned, including Howard Transportation Services.",
+  "test_outcome": "FAIL: generation service error; retry recorded separately."
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "command": [
+      "cli.py",
+      "retrieve",
+      "How often do Howard shuttles arrive?",
+      "--mode",
+      "semantic"
+    ],
+    "returncode": 0,
+    "results": [
+      {
+        "id": "20efe772577c42780e523aa9",
+        "text": "HOWARD UNIVERSITY TRANSPORTATION SERVICES Howard University Transportation Services provides free shuttle service for students, faculty, staff, Howard University Hospital affiliates, and visitors conducting business within the Howard community. SHUTTLE SERVICE Howard operates fixed shuttle routes with stops near parking lots, residence halls, West Campus, Metro stations, and other University locations. Most Howard shuttle routes arrive approximately every 20 to 30 minutes. The West Campus route generally arrives approximately every 45 minutes. Actual arrival times may vary because of traffic, weather, road conditions, construction, special events, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individu",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.6073288917541504,
+        "cosine_distance": 0.3926711082458496,
+        "bm25_score": null,
+        "mode": "semantic"
+      },
+      {
+        "id": "e11fe01d90280c00d39b3ca9",
+        "text": "ents, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individual schedules and route maps for routes including Metro Express, Clover at The Parks, South Campus, West Campus, 801 N. Capitol Street NW, The Lanes Apartments, Weekend Campus, 640 Massachusetts Avenue, and North Campus. Shuttle schedules begin on the first official day of classes. The listed times represent shuttle pull-off times. SHUTTLE GUIDELINES Riders should carry their Howard University ID and board only at designated shuttle stops. Riders should use headphones when listening to audio. Eating and drinking are not permitted on the shuttle. Students, faculty, staff, and Howard University Hospital affiliates may use the shuttle. Visitors c",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 650,
+          "end": 1450,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.5689699649810791,
+        "cosine_distance": 0.4310300350189209,
+        "bm25_score": null,
+        "mode": "semantic"
+      },
+      {
+        "id": "b24cc5d2f57298ed7ab942ec",
+        "text": "Independence Day. ADA ACCESSIBLE TRANSPORTATION Wheelchair-accessible transportation is available upon request from designated shuttle stops. Accessible transportation is typically arranged within approximately 10 minutes. For ADA transportation assistance, riders can contact the morning service between 7:00 a.m. and 2:00 p.m. or the evening service between 2:00 p.m. and 1:00 a.m. METRO ACCESS Several Howard shuttle routes provide access to nearby Metro stations. Students should review the current route maps and schedules to determine which route serves their destination. Because shuttle arrival times can change, students should rely on the current Howard Transportation Services schedules and live tracking information when planning a trip.",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 1950,
+          "end": 2699,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.5257795453071594,
+        "cosine_distance": 0.4742204546928406,
+        "bm25_score": null,
+        "mode": "semantic"
+      },
+      {
+        "id": "f01545b2a5214a7d4800db95",
+        "text": "ing and drinking are not permitted on the shuttle. Students, faculty, staff, and Howard University Hospital affiliates may use the shuttle. Visitors conducting business within the Howard community may also use the service. WEEKEND AND HOLIDAY SERVICE Howard provides a dedicated Weekend Campus Route. Students should check the current published schedule for weekend operating hours and stops. Shuttle service is suspended during designated University holidays and recess periods. These include Labor Day, Veterans Day, Thanksgiving Recess, Winter Semester Recess, Martin Luther King Jr. Day, Presidents Day, Spring Semester Recess, Memorial Day, and Independence Day. ADA ACCESSIBLE TRANSPORTATION Wheelchair-accessible transportation is available upon request from designated shuttle stops. Accessib",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 1300,
+          "end": 2100,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.5111400485038757,
+        "cosine_distance": 0.48885995149612427,
+        "bm25_score": null,
+        "mode": "semantic"
+      }
+    ]
+  },
+  {
+    "command": [
+      "cli.py",
+      "retrieve",
+      "How often do Howard shuttles arrive?",
+      "--mode",
+      "bm25"
+    ],
+    "returncode": 0,
+    "results": [
+      {
+        "id": "20efe772577c42780e523aa9",
+        "text": "HOWARD UNIVERSITY TRANSPORTATION SERVICES Howard University Transportation Services provides free shuttle service for students, faculty, staff, Howard University Hospital affiliates, and visitors conducting business within the Howard community. SHUTTLE SERVICE Howard operates fixed shuttle routes with stops near parking lots, residence halls, West Campus, Metro stations, and other University locations. Most Howard shuttle routes arrive approximately every 20 to 30 minutes. The West Campus route generally arrives approximately every 45 minutes. Actual arrival times may vary because of traffic, weather, road conditions, construction, special events, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individu",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 3.390802071065635,
+        "cosine_distance": null,
+        "bm25_score": 3.390802071065635,
+        "mode": "bm25"
+      },
+      {
+        "id": "62a17f3dec23515fd01b7037",
+        "text": "rent. They also mention off-campus options offered through Howard that still have dorm rules, naming Mazza and Wish as options they would consider. These historical suggestions do not establish current affiliation, availability, eligibility, or funding. Loud_Bookkeeper7886 says some people successfully pursued housing after initially missing out and others did not. No outcome is guaranteed.",
+        "metadata": {
+          "filename": "student_off_campus.txt",
+          "source": "r/HowardUniversity \u2014 how does off campus housing work?",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1l41ecq/how_does_off_campus_housing_work/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "off-campus",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 650,
+          "end": 1043,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 3.0518690859215427,
+        "cosine_distance": null,
+        "bm25_score": 3.0518690859215427,
+        "mode": "bm25"
+      },
+      {
+        "id": "163ae6e484335310c27fa958",
+        "text": " they enjoy Washington, DC, but are unhappy with aspects of campus social life and some classes. Their statements about sophomore residency and visitation must not replace current official rules; the official housing source describes an approved-exemption process. Historical complaints do not establish today's opening hours or residence policies.",
+        "metadata": {
+          "filename": "student_applicant_experience.txt",
+          "source": "r/HowardUniversity \u2014 Advice for New Applicants",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1jyjivj/advice_for_new_applicants/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "student-life",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 650,
+          "end": 998,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 2.406960902485496,
+        "cosine_distance": null,
+        "bm25_score": 2.406960902485496,
+        "mode": "bm25"
+      },
+      {
+        "id": "774b375630db18b897397b3f",
+        "text": "lity rules. They say they like living in College Hall South but would have considered Annex for its kitchens because adapting to American food was difficult in their first semester. sibscartel says applicants can rank preferences but do not control their eventual assignment. Consult official Housing information for current assignment procedures.",
+        "metadata": {
+          "filename": "student_residence_recommendations.txt",
+          "source": "r/HowardUniversity \u2014 Resident hall recommendations",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1snfwjv/resident_hall_recommendations/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "housing",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 650,
+          "end": 997,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 2.3923770378769613,
+        "cosine_distance": null,
+        "bm25_score": 2.3923770378769613,
+        "mode": "bm25"
+      }
+    ]
+  },
+  {
+    "command": [
+      "cli.py",
+      "retrieve",
+      "How often do Howard shuttles arrive?",
+      "--mode",
+      "hybrid"
+    ],
+    "returncode": 0,
+    "results": [
+      {
+        "id": "20efe772577c42780e523aa9",
+        "text": "HOWARD UNIVERSITY TRANSPORTATION SERVICES Howard University Transportation Services provides free shuttle service for students, faculty, staff, Howard University Hospital affiliates, and visitors conducting business within the Howard community. SHUTTLE SERVICE Howard operates fixed shuttle routes with stops near parking lots, residence halls, West Campus, Metro stations, and other University locations. Most Howard shuttle routes arrive approximately every 20 to 30 minutes. The West Campus route generally arrives approximately every 45 minutes. Actual arrival times may vary because of traffic, weather, road conditions, construction, special events, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individu",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03278688524590164,
+        "cosine_distance": 0.3926711082458496,
+        "bm25_score": 3.390802071065635,
+        "mode": "hybrid"
+      },
+      {
+        "id": "e11fe01d90280c00d39b3ca9",
+        "text": "ents, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individual schedules and route maps for routes including Metro Express, Clover at The Parks, South Campus, West Campus, 801 N. Capitol Street NW, The Lanes Apartments, Weekend Campus, 640 Massachusetts Avenue, and North Campus. Shuttle schedules begin on the first official day of classes. The listed times represent shuttle pull-off times. SHUTTLE GUIDELINES Riders should carry their Howard University ID and board only at designated shuttle stops. Riders should use headphones when listening to audio. Eating and drinking are not permitted on the shuttle. Students, faculty, staff, and Howard University Hospital affiliates may use the shuttle. Visitors c",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 650,
+          "end": 1450,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03128054740957967,
+        "cosine_distance": 0.4310300350189209,
+        "bm25_score": 1.0280651288082112,
+        "mode": "hybrid"
+      },
+      {
+        "id": "f01545b2a5214a7d4800db95",
+        "text": "ing and drinking are not permitted on the shuttle. Students, faculty, staff, and Howard University Hospital affiliates may use the shuttle. Visitors conducting business within the Howard community may also use the service. WEEKEND AND HOLIDAY SERVICE Howard provides a dedicated Weekend Campus Route. Students should check the current published schedule for weekend operating hours and stops. Shuttle service is suspended during designated University holidays and recess periods. These include Labor Day, Veterans Day, Thanksgiving Recess, Winter Semester Recess, Martin Luther King Jr. Day, Presidents Day, Spring Semester Recess, Memorial Day, and Independence Day. ADA ACCESSIBLE TRANSPORTATION Wheelchair-accessible transportation is available upon request from designated shuttle stops. Accessib",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 1300,
+          "end": 2100,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03055037313432836,
+        "cosine_distance": 0.48885995149612427,
+        "bm25_score": 0.9572873722972687,
+        "mode": "hybrid"
+      },
+      {
+        "id": "cef5669d07c7eb5f4f7258a2",
+        "text": "For fall 2026, students should arrive at their assigned move-in appointment. Early arrivals cannot be accommodated. Later arrivals should use their building's move-in hours; after hours, students contact their Resident Assistant for check-in and should expect delays and no normal equipment or volunteer assistance. Residents personally collect their packet and keys. Up to three guests, including children, may help; guests must leave by 8 p.m. A licensed driver should stay with the vehicle during unloading. After unloading, designated parking is available for at most 45 minutes. Students present their personalized housing-registration QR code on paper or a phone to staff before check-in. Cleared residents receive keys and check-in materials; helpers receive wristbands. Dates and times depend",
+        "metadata": {
+          "filename": "howard_move_in.txt",
+          "source": "Howard Student Affairs \u2014 Move-In Instructions",
+          "source_url": "https://studentaffairs.howard.edu/housing/move-in/instructions",
+          "accessed": "2026-09-29",
+          "source_type": "official",
+          "topic": "move-in",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.030536130536130537,
+        "cosine_distance": 0.7589665055274963,
+        "bm25_score": 1.9881008465230166,
+        "mode": "hybrid"
+      }
+    ]
+  },
+  {
+    "command": [
+      "cli.py",
+      "retrieve",
+      "Howard housing assignments",
+      "--source-type",
+      "official"
+    ],
+    "returncode": 0,
+    "results": [
+      {
+        "id": "c08ce899b2b4fd2dbde8f96d",
+        "text": "HOWARD UNIVERSITY HOUSING APPLICATION The 2026-2027 Howard University housing application is managed through StarRez. Before applying, students must pay a nonrefundable $50 housing application fee. Paying the application fee does not guarantee a housing assignment. Students with a prior balance may submit an application, but they will not receive a housing assignment until their student account is clear. First-time-in-college and second-year students are required to live in University Housing or University-sponsored housing unless they receive an approved housing exemption. To apply for housing, students log into StarRez using Howard Student SSO, select \"Apply for Housing,\" choose the appropriate academic year, pay the application fee, complete the required information, and submit the appl",
+        "metadata": {
+          "filename": "howard_housing.txt",
+          "source": "Howard University Student Affairs \u2014 Apply for Housing",
+          "source_url": "https://studentaffairs.howard.edu/housing/apply-housing",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "housing",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.032018442622950824,
+        "cosine_distance": 0.34031516313552856,
+        "bm25_score": 0.6885135331820309,
+        "mode": "hybrid"
+      },
+      {
+        "id": "de87d6d2f7d003d911a89b17",
+        "text": " student declines an assignment or misses the confirmation deadline, the space may be offered to another student on the waitlist. Roommate changes may only be requested during fall consolidation week. Hall or room transfer requests are not accepted outside the applicable process. FIRST-TIME-IN-COLLEGE STUDENTS First-time-in-college students must complete the required housing eligibility steps. Students confirm their intent to enroll at Howard by paying the required $300 nonrefundable enrollment fee. They must also use their Bison Email for Howard communications and pay the $50 housing application fee through StarRez. SECOND-YEAR STUDENTS Second-year students must pay the $50 housing application fee through StarRez. Howard states that second-year students are guaranteed housing. UPPERCLASSM",
+        "metadata": {
+          "filename": "howard_housing.txt",
+          "source": "Howard University Student Affairs \u2014 Apply for Housing",
+          "source_url": "https://studentaffairs.howard.edu/housing/apply-housing",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "housing",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 1300,
+          "end": 2100,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.0315136476426799,
+        "cosine_distance": 0.3615682125091553,
+        "bm25_score": 0.6868550353388534,
+        "mode": "hybrid"
+      },
+      {
+        "id": "e11fe01d90280c00d39b3ca9",
+        "text": "ents, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individual schedules and route maps for routes including Metro Express, Clover at The Parks, South Campus, West Campus, 801 N. Capitol Street NW, The Lanes Apartments, Weekend Campus, 640 Massachusetts Avenue, and North Campus. Shuttle schedules begin on the first official day of classes. The listed times represent shuttle pull-off times. SHUTTLE GUIDELINES Riders should carry their Howard University ID and board only at designated shuttle stops. Riders should use headphones when listening to audio. Eating and drinking are not permitted on the shuttle. Students, faculty, staff, and Howard University Hospital affiliates may use the shuttle. Visitors c",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 650,
+          "end": 1450,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.0315136476426799,
+        "cosine_distance": 0.6192163825035095,
+        "bm25_score": 0.7545127986245549,
+        "mode": "hybrid"
+      },
+      {
+        "id": "20efe772577c42780e523aa9",
+        "text": "HOWARD UNIVERSITY TRANSPORTATION SERVICES Howard University Transportation Services provides free shuttle service for students, faculty, staff, Howard University Hospital affiliates, and visitors conducting business within the Howard community. SHUTTLE SERVICE Howard operates fixed shuttle routes with stops near parking lots, residence halls, West Campus, Metro stations, and other University locations. Most Howard shuttle routes arrive approximately every 20 to 30 minutes. The West Campus route generally arrives approximately every 45 minutes. Actual arrival times may vary because of traffic, weather, road conditions, construction, special events, or other delays. Students should use Howard's live shuttle tracking service for the most accurate arrival information. Howard publishes individu",
+        "metadata": {
+          "filename": "howard_transportation.txt",
+          "source": "Howard University Office of Auxiliary Enterprises \u2014 Transportation Services",
+          "source_url": "https://auxiliary.howard.edu/services/parking-transportation/transportation-services",
+          "accessed": "September 29, 2026",
+          "source_type": "official",
+          "topic": "transportation",
+          "status": "verified",
+          "content_type": "User-supplied summary checked against source on 2026-09-29",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.030886196246139225,
+        "cosine_distance": 0.6763540506362915,
+        "bm25_score": 0.904275933641774,
+        "mode": "hybrid"
+      }
+    ]
+  },
+  {
+    "command": [
+      "cli.py",
+      "retrieve",
+      "Howard housing assignments",
+      "--source-type",
+      "student"
+    ],
+    "returncode": 0,
+    "results": [
+      {
+        "id": "62a17f3dec23515fd01b7037",
+        "text": "rent. They also mention off-campus options offered through Howard that still have dorm rules, naming Mazza and Wish as options they would consider. These historical suggestions do not establish current affiliation, availability, eligibility, or funding. Loud_Bookkeeper7886 says some people successfully pursued housing after initially missing out and others did not. No outcome is guaranteed.",
+        "metadata": {
+          "filename": "student_off_campus.txt",
+          "source": "r/HowardUniversity \u2014 how does off campus housing work?",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1l41ecq/how_does_off_campus_housing_work/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "off-campus",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 650,
+          "end": 1043,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03252247488101534,
+        "cosine_distance": 0.3722817897796631,
+        "bm25_score": 0.8573687277676287,
+        "mode": "hybrid"
+      },
+      {
+        "id": "a46de697162d810682aa046c",
+        "text": "An incoming Howard student asks whether freshman housing is first-come-first-served or a lottery, and whether an application can be edited later to add a roommate. In the visible response, amri2000 describes assignments as random and advises ensuring that both applicants' roommate preferences match before submitting. This is one commenter's advice, not an official account of the assignment algorithm or a verified restriction on editing. The source does not provide a detailed roommate-selection workflow. Students should compare it with the current official housing application instructions.",
+        "metadata": {
+          "filename": "student_freshman_housing.txt",
+          "source": "r/HowardUniversity \u2014 Housing for Freshman",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1s9ygvz/housing_for_freshman/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "housing",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 0,
+          "end": 595,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03252247488101534,
+        "cosine_distance": 0.38247209787368774,
+        "bm25_score": 2.904053957095777,
+        "mode": "hybrid"
+      },
+      {
+        "id": "dca33297f6827d8d3b830904",
+        "text": "Historical individual experiences from a June 2025 Reddit discussion, paraphrased; not financial-aid advice or University guarantees. EcstaticClassic6571 reports working part-time to pay rent and says others receive parental help or borrow, while discouraging loans for rent. NetworkNecessary speculates that excess loans or scholarships produce refunds used for rent, explicitly expressing uncertainty. Loud_Bookkeeper7886 mentions jobs, refund checks, loans, and family support; their claim that Howard does not pay for off-campus housing is a commenter claim, not official policy. longneckchan reports their mother used semester refund checks for rent. They also mention off-campus options offered through Howard that still have dorm rules, naming Mazza and Wish as options they would consider. Th",
+        "metadata": {
+          "filename": "student_off_campus.txt",
+          "source": "r/HowardUniversity \u2014 how does off campus housing work?",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1l41ecq/how_does_off_campus_housing_work/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "off-campus",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03149801587301587,
+        "cosine_distance": 0.47142547369003296,
+        "bm25_score": 0.759444549293161,
+        "mode": "hybrid"
+      },
+      {
+        "id": "cfed23d3fbc9bf8f8350e192",
+        "text": "Paraphrased Reddit discussion; commenters' identities and enrollment are not independently verified. These are opinions, not Howard housing rules. Odd_Function281 recommends College Hall North or South and describes bathrooms shared with a roommate. They criticize Annex's age and report mice. Another commenter, amri2000, reports having seen a mouse in College Hall South too, illustrating disagreement rather than a reliable ranking of buildings. amri2000 recommends Drew or Cook for men and College Hall South or North for women, and describes the Quad as pleasant but with communal bathrooms. These recommendations are not verified gender eligibility rules. They say they like living in College Hall South but would have considered Annex for its kitchens because adapting to American food was dif",
+        "metadata": {
+          "filename": "student_residence_recommendations.txt",
+          "source": "r/HowardUniversity \u2014 Resident hall recommendations",
+          "source_url": "https://www.reddit.com/r/HowardUniversity/comments/1snfwjv/resident_hall_recommendations/",
+          "accessed": "2026-09-29",
+          "source_type": "student",
+          "topic": "housing",
+          "status": "verified",
+          "content_type": "Editorial paraphrase of retrieved source, not verbatim text",
+          "start": 0,
+          "end": 800,
+          "chunk_size": 800,
+          "overlap": 150
+        },
+        "score": 0.03125763125763126,
+        "cosine_distance": 0.44100332260131836,
+        "bm25_score": 0.6149316206521873,
+        "mode": "hybrid"
+      }
+    ]
+  }
+]

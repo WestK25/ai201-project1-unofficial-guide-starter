@@ -1,0 +1,10 @@
+{
+  "env_ignored": true,
+  "env_tracked": false,
+  "example_key_is_placeholder": true,
+  "exposed_secret_paths": [],
+  "tracked_secret_paths": [],
+  "scanned_submission_files": 59,
+  "env_unchanged": true,
+  "final_actual_key_matches": []
+}

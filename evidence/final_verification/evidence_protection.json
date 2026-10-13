@@ -1,0 +1,6 @@
+{
+  "command": "python experiments.py --generate",
+  "expected_exit_code": 2,
+  "actual_exit_code": 2,
+  "result": "PASS: accepted evidence replacement rejected; use --output-dir for new runs"
+}
